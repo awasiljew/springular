@@ -3,11 +3,9 @@ package com.awasiljew.model;
 public class SetItem {
 
     private String name;
-    private boolean selected;
 
-    public SetItem(String name, boolean selected) {
+    public SetItem(String name) {
         this.name = name;
-        this.selected = selected;
     }
 
     public String getName() {
@@ -16,14 +14,6 @@ public class SetItem {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public boolean isSelected() {
-        return selected;
-    }
-
-    public void setSelected(boolean selected) {
-        this.selected = selected;
     }
 
 }
